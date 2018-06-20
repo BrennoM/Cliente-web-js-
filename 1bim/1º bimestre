@@ -1,0 +1,73 @@
+<html>
+
+<body>
+
+	<p id="paragrafo">Olá!</p>
+
+<script language="javascript">
+
+/* 
+var v1, v2, soma;
+
+v1 = Number (prompt ("Digite o 1o valor: ", ""));
+
+v2 = Number (prompt ("Digite o 2o valor: ", ""));
+
+soma = v1 + v2;
+
+if (soma > 100) {
+
+console.log ("O resultado é " + soma);
+
+document.write("O resultado é " + soma);
+
+}
+*/
+
+/*
+num = Number (prompt("digite um numero inteiro: "));
+if (num%2==0) {
+	document.write (num + " é par");
+}
+
+if (num%2!=0) {
+	document.write (num + " é impar");
+}
+*/
+
+/*
+altura = Number (prompt("sua altura:"));
+sexo = String (prompt("sexo (M ou F):"));
+if (sexo == 'M' || sexo == 'F') {
+	if (sexo == 'M') {
+	resultado = Number((72.7*altura) - 58);
+	document.write("Peso ideal: " + resultado);
+	}
+	if (sexo == 'F') {
+	resultado = Number((62.1*altura) - 44.7);
+	document.write("Peso ideal: " + resultado);
+	}
+}
+else 
+	document.write("Dados inválidos.")
+*/
+/*
+	document.write("<table border=1px>");
+	for (var i = 1; i < 10; i++) {
+		document.write("<tr>")
+		for (var j = 1 ; j < 10; j++) {
+			document.write("<td>" + i*j + "</td>");
+		}
+		document.write("</tr>");
+	}
+	document.write("</table>");
+*/
+	function mfuncao(){
+		var x = document.getElementById("paragrafo");
+		x.innerHTML="hello!";
+	}
+</script>
+<button type="button" onclick="mfuncao();">Translate</button>
+</body>
+
+</html>
